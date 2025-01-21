@@ -64,12 +64,25 @@ section img {
 }
 
 .tienda {
-	display: flex;
+	display: flex ;
 	flex-flow: row wrap;
 	justify-content: center;
 	
 }
 
+@media (min-width: 768px) {
+    .tienda{
+        flex-direction: row;
+       
+    }
+}
 .items{
 	margin: 10px;
+}
+
+.titulo-tienda {
+	color:rgb(255, 255, 255);
+	display: flex;
+	justify-content: center;
+	padding: 20px;
 }
