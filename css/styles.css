@@ -65,7 +65,7 @@ section img {
 
 .tienda {
 	display: flex;
-	flex-direction: column;
+	flex-flow: row wrap;
 	justify-content: center;
 	
 }
