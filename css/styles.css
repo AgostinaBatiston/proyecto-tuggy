@@ -17,10 +17,23 @@ section img {
 
 
 
+
+.titulo-valky {
+	color:rgb(131, 58, 25);
+	display: flex;
+	justify-content: center;
+	padding: 5px;
+}
+
 .container-valkyria {
 	display: flex;
 	margin: 20px;
 	justify-content: center;
+}
+
+.imagen-valky {
+	width:250px; 
+	height:200px;  
 }
 
 
