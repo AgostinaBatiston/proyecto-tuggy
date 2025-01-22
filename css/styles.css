@@ -86,6 +86,11 @@ section img {
 	justify-content: center;
 }
 
+.carrusel-index{
+	display: flex;
+	justify-content: center;
+}
+
 .container-presentacion {
 	display: flex;
 	flex-flow: row wrap;
