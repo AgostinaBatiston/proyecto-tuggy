@@ -1,18 +1,10 @@
 .body {
 	background-color:#ffc697;
 }
-.italica {
-	font-style: italic;
-}
-
-.italica-brown {
-	font-style: italic;
-	color: brown;
-}
 
 section img {
-	width:200px; 
-	height:180px;  
+	width:150px; 
+	height:200px;  
 }
 
 
@@ -22,17 +14,17 @@ section img {
 }
 
 
-#tablaTienda {
-	font-family: serif;
-	color: black;
-	background-color: white;
-}
+
+
 
 .container-valkyria {
 	display: flex;
 	margin: 20px;
 	justify-content: center;
 }
+
+
+
 
 
 .titulo-somos {
@@ -47,6 +39,7 @@ section img {
 	display: grid;
 	flex-flow: column;
 	justify-content: center;
+	margin: 20px;
 	
 }
 
@@ -66,10 +59,12 @@ section img {
     }
 }
 
-
 .presentacion {
 	margin: 10px;
+	
 }
+
+
 
 
 
