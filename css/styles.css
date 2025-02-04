@@ -1,5 +1,5 @@
 .body {
-	background-color:#ffc697;
+	background-color: rgb(255, 207, 157);
 }
 
 section img {
@@ -11,6 +11,50 @@ section img {
 .logo {
 	width:140px;
 	 height:100px;
+}
+
+
+footer {
+	background: #DE8F5F;
+	color: #fff;
+	padding: 40px 0;
+	text-align: center;
+}
+.footer-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	max-width: 1100px;
+	margin: auto;
+}
+.footer-section {
+	flex: 1;
+	min-width: 250px;
+	padding: 10px;
+}
+.footer-section h2 {
+	margin-bottom: 15px;
+}
+.footer-section ul {
+	list-style: none;
+	padding: 0;
+}
+.footer-section ul li {
+	margin: 5px 0;
+}
+.footer-section ul li a {
+	color: #fff;
+	
+}
+.footer-section .redes a {
+	color: #fff;
+	font-size: 24px;
+	margin: 0 10px;
+}
+.footer-derechos {
+	margin-top: 20px;
+	border-top: 1px solid #555;
+	padding-top: 10px;
 }
 
 
