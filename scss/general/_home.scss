@@ -5,9 +5,6 @@
 // import variables
 @import "../utilidades/variables";
 
-// import listas
-
-
 /* Estilos del header */
 header{
     nav {
@@ -97,6 +94,12 @@ main {
                     }
                 }
             }
+        }
+    }
+
+    section {
+        .container-contacto {
+            margin: 30px;
         }
     }
 
