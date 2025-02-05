@@ -53,6 +53,19 @@ main .container-somos .presentacion {
     grid-template-columns: 1fr; /* Se apilan en una sola columna */
   }
 }
+main .tienda {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+main .tienda .items {
+  margin: 10px;
+}
+@media (min-width: 768px) {
+  main .tienda {
+    flex-direction: row;
+  }
+}
 
 /* Estilos a footer */
 footer {

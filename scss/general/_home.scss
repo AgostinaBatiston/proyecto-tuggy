@@ -14,8 +14,7 @@ header{
         background-color: $color-nav;
         a{
             img {
-                width: 140px;
-                height: 100px;
+                @include img (140px, 100px);
             }
             
         }
@@ -64,6 +63,26 @@ main {
             grid-template-columns: 1fr; /* Se apilan en una sola columna */
         }
     }
+
+    .tienda {
+        display: flex ;
+	    flex-flow: row wrap;
+	    justify-content: center;
+
+        .items{
+            margin: 10px;
+        }        
+    }
+
+    @media (min-width: 768px) {
+        .tienda{
+            flex-direction: row;
+           
+        }
+    }
+
+
+
     
     
 }
