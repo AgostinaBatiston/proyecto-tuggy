@@ -66,6 +66,21 @@ main .tienda .items {
     flex-direction: row;
   }
 }
+main .titulo-valky {
+  color: rgb(131, 58, 25);
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+main .container-valkyria {
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+}
+main .container-valkyria div div h6 .imagen-valky {
+  width: 250px;
+  height: 220px;
+}
 
 /* Estilos a footer */
 footer {

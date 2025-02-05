@@ -81,7 +81,24 @@ main {
         }
     }
 
+    .titulo-valky {
+        @include title ($color-titulo, flex, center, 5px);
+    }
 
+    .container-valkyria {
+        display: flex;
+	    margin: 20px;
+	    justify-content: center;
+        div {
+            div{
+                h6 {
+                    .imagen-valky {
+                        @include img (250px, 220px );
+                    }
+                }
+            }
+        }
+    }
 
     
     
