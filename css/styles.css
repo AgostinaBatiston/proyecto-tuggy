@@ -26,16 +26,16 @@ main p {
   flex-direction: column;
   justify-content: center;
 }
-main div .carrusel-index {
+main .carrusel-index {
   display: flex;
   justify-content: center;
 }
-main section .container-presentacion {
+main .container-presentacion {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
 }
-main section div .presentacion {
+main .container-presentacion .presentacion {
   margin: 10px;
 }
 

@@ -33,26 +33,26 @@ main {
     p {
         @include index;
     }
-    div {
-        .carrusel-index{
+
+    .carrusel-index{
             display: flex;
             justify-content: center;
-        }
     }
-    section {
-        .container-presentacion {
+    
+    
+    .container-presentacion {
             display: flex;
 	        flex-flow: row wrap;
 	        justify-content: center;
-        }
-        div{
-            .presentacion {
-                margin: 10px;
+            .presentacion{
+                    margin: 10px;
+                
             }
         }
         
         
-    }
+        
+    
 }
 
 
