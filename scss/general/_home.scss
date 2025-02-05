@@ -1,0 +1,102 @@
+// import de mixin
+@import "../utilidades/mixin";
+
+
+// import variables
+@import "../utilidades/variables";
+
+// import listas
+
+
+/* Estilos del header */
+header{
+    nav {
+        background-color: $color-nav;
+        a{
+            img {
+                width: 140px;
+                height: 100px;
+            }
+            
+        }
+    }
+}
+
+/* Estilos a main */
+main {
+    h1 {
+            @include index; 
+        
+           
+        
+    }
+    p {
+        @include index;
+    }
+    div {
+        .carrusel-index{
+            display: flex;
+            justify-content: center;
+        }
+    }
+    section {
+        .container-presentacion {
+            display: flex;
+	        flex-flow: row wrap;
+	        justify-content: center;
+        }
+        div{
+            .presentacion {
+                margin: 10px;
+            }
+        }
+        
+        
+    }
+}
+
+
+
+
+/* Estilos a footer */
+
+footer {
+    @include footer;
+    div {
+        @include  foot-container;
+        div{
+            flex: 1;
+	        min-width: 250px;
+	        padding: 10px;
+            h2 {
+                margin-bottom: 15px;
+            }
+            ul {
+                list-style: none;
+	            padding: 0;
+                li {
+                    margin: 5px 0;
+                    a{
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        div {
+            a {
+                 color: #fff;
+	        font-size: 24px;
+	        margin: 0 10px;
+            }
+           
+        }
+    }
+    div {
+        .footer-derechos {
+            margin-top: 20px;
+	        border-top: 1px solid #555;
+	        padding-top: 10px;
+        }
+        
+    }
+}

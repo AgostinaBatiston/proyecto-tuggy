@@ -1,11 +1,85 @@
-/* INDEX */
-header nav {
-  background-color: burlywood;
+body {
+  background-color: rgb(255, 207, 157);
 }
 
-/* QUIENES SOMOS */
-/* TIENDA */
-/* PUNTOS DE VENTA */
-/* CONTACTO */
+/* Estilos del header */
+header nav {
+  background-color: rgb(255, 232, 211);
+}
+header nav a img {
+  width: 140px;
+  height: 100px;
+}
+
+/* Estilos a main */
+main h1 {
+  color: rgb(131, 58, 25);
+  display: grid;
+  margin: 20px;
+  flex-direction: column;
+  justify-content: center;
+}
+main p {
+  color: rgb(131, 58, 25);
+  display: grid;
+  margin: 20px;
+  flex-direction: column;
+  justify-content: center;
+}
+main div .carrusel-index {
+  display: flex;
+  justify-content: center;
+}
+main section .container-presentacion {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+main section div .presentacion {
+  margin: 10px;
+}
+
+/* Estilos a footer */
+footer {
+  background: #DE8F5F;
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+footer div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1100px;
+  margin: auto;
+}
+footer div div {
+  flex: 1;
+  min-width: 250px;
+  padding: 10px;
+}
+footer div div h2 {
+  margin-bottom: 15px;
+}
+footer div div ul {
+  list-style: none;
+  padding: 0;
+}
+footer div div ul li {
+  margin: 5px 0;
+}
+footer div div ul li a {
+  color: #fff;
+}
+footer div div a {
+  color: #fff;
+  font-size: 24px;
+  margin: 0 10px;
+}
+footer div .footer-derechos {
+  margin-top: 20px;
+  border-top: 1px solid #555;
+  padding-top: 10px;
+}
 
 /*# sourceMappingURL=styles.css.map */
