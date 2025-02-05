@@ -46,37 +46,37 @@ footer {
   padding: 40px 0;
   text-align: center;
 }
-footer div {
+footer .footer-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   max-width: 1100px;
   margin: auto;
 }
-footer div div {
+footer .footer-section {
   flex: 1;
   min-width: 250px;
   padding: 10px;
 }
-footer div div h2 {
+footer .footer-section h2 {
   margin-bottom: 15px;
 }
-footer div div ul {
+footer .footer-section ul {
   list-style: none;
   padding: 0;
 }
-footer div div ul li {
+footer .footer-section ul li {
   margin: 5px 0;
 }
-footer div div ul li a {
+footer .footer-section ul li a {
   color: #fff;
 }
-footer div div a {
+footer .footer-section .redes a {
   color: #fff;
   font-size: 24px;
   margin: 0 10px;
 }
-footer div .footer-derechos {
+footer .footer-derechos {
   margin-top: 20px;
   border-top: 1px solid #555;
   padding-top: 10px;

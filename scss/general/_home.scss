@@ -60,43 +60,48 @@ main {
 
 /* Estilos a footer */
 
+
 footer {
-    @include footer;
-    div {
-        @include  foot-container;
-        div{
-            flex: 1;
-	        min-width: 250px;
-	        padding: 10px;
-            h2 {
-                margin-bottom: 15px;
-            }
-            ul {
-                list-style: none;
-	            padding: 0;
-                li {
-                    margin: 5px 0;
-                    a{
-                        color: #fff;
-                    }
-                }
-            }
-        }
-        div {
-            a {
-                 color: #fff;
-	        font-size: 24px;
-	        margin: 0 10px;
-            }
-           
-        }
+  @include footer;
+
+  .footer-container {
+    @include foot-container;
+  }
+
+  .footer-section {
+    flex: 1;
+    min-width: 250px;
+    padding: 10px;
+
+    h2 {
+      margin-bottom: 15px;
     }
-    div {
-        .footer-derechos {
-            margin-top: 20px;
-	        border-top: 1px solid #555;
-	        padding-top: 10px;
+
+    ul {
+      list-style: none;
+      padding: 0;
+
+      li {
+        margin: 5px 0;
+
+        a {
+          color: #fff;
         }
-        
+      }
     }
+
+    .redes {
+      a {
+        color: #fff;
+        font-size: 24px;
+        margin: 0 10px;
+      }
+    }
+  }
+
+  .footer-derechos {
+    margin-top: 20px;
+    border-top: 1px solid #555;
+    padding-top: 10px;
+  }
 }
