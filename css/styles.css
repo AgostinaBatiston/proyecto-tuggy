@@ -38,6 +38,21 @@ main .container-presentacion {
 main .container-presentacion .presentacion {
   margin: 10px;
 }
+main .container-somos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columnas en pantallas grandes */
+  justify-items: center;
+  gap: 20px;
+  margin: 30px;
+}
+main .container-somos .presentacion {
+  margin: 15px;
+}
+@media (max-width: 768px) {
+  main .container-somos {
+    grid-template-columns: 1fr; /* Se apilan en una sola columna */
+  }
+}
 
 /* Estilos a footer */
 footer {

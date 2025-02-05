@@ -51,7 +51,20 @@ main {
         }
         
         
-        
+    .container-somos {
+        @include cont-somos;
+        .presentacion {
+            margin: 15px;
+            
+        }
+    }    
+    
+    @media (max-width: 768px) {
+        .container-somos {
+            grid-template-columns: 1fr; /* Se apilan en una sola columna */
+        }
+    }
+    
     
 }
 
