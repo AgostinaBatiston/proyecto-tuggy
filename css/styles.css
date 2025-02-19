@@ -86,7 +86,7 @@ main .cards-section .card__button {
   transition: background 0.3s ease;
 }
 main .cards-section .card__button:hover {
-  background: #e65c00;
+  background: #DE8F5F;
 }
 main .container-somos {
   display: grid;

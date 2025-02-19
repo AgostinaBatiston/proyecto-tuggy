@@ -89,7 +89,7 @@ main {
             transition: background 0.3s ease;
       
             &:hover {
-              background: #e65c00;
+              background: $color-footer;
             }
           }
         }
