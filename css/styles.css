@@ -8,6 +8,18 @@ header nav a img {
 }
 
 /* Estilos a main */
+main {
+  /* .container-presentacion {
+          display: flex;
+       flex-flow: row wrap;
+       justify-content: center;
+          .presentacion{
+                  margin: 10px;
+
+          }
+      }
+     */
+}
 main h1 {
   color: rgb(131, 58, 25);
   display: grid;
@@ -26,13 +38,55 @@ main .carrusel-index {
   display: flex;
   justify-content: center;
 }
-main .container-presentacion {
+main .cards-section {
   display: flex;
-  flex-flow: row wrap;
+  flex-wrap: wrap;
   justify-content: center;
+  gap: 20px;
+  padding: 40px;
 }
-main .container-presentacion .presentacion {
-  margin: 10px;
+main .cards-section .card {
+  background: rgb(255, 207, 157);
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+main .cards-section .card:hover {
+  transform: translateY(-5px);
+}
+main .cards-section .card__image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+main .cards-section .card__content {
+  padding: 20px;
+  text-align: center;
+}
+main .cards-section .card__title {
+  font-size: 1.5rem;
+  color: rgb(131, 58, 25);
+  margin-bottom: 10px;
+}
+main .cards-section .card__description {
+  font-size: 1rem;
+  color: #DE8F5F;
+  margin-bottom: 15px;
+}
+main .cards-section .card__button {
+  display: inline-block;
+  background: rgb(131, 58, 25);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+main .cards-section .card__button:hover {
+  background: #e65c00;
 }
 main .container-somos {
   display: grid;

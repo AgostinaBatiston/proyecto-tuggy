@@ -35,8 +35,67 @@ main {
             justify-content: center;
     }
     
+    .cards-section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 40px;
+      
+        .card {
+          background: $color-principal;
+          border-radius: 12px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          overflow: hidden;
+          width: 300px;
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
+      
+          &:hover {
+            transform: translateY(-5px);
+            
+          }
+      
+          &__image {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+          }
+      
+          &__content {
+            padding: 20px;
+            text-align: center;
+          }
+      
+          &__title {
+            font-size: 1.5rem;
+            color: $color-titulo;
+            margin-bottom: 10px;
+          }
+      
+          &__description {
+            font-size: 1rem;
+            color: $color-footer;
+            margin-bottom: 15px;
+          }
+      
+          &__button {
+            display: inline-block;
+            background: $color-titulo;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s ease;
+      
+            &:hover {
+              background: #e65c00;
+            }
+          }
+        }
+      }
     
-    .container-presentacion {
+    /* .container-presentacion {
             display: flex;
 	        flex-flow: row wrap;
 	        justify-content: center;
@@ -45,7 +104,7 @@ main {
                 
             }
         }
-        
+       */ 
         
     .container-somos {
         @include cont-somos;
