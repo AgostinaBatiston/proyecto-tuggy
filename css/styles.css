@@ -8,18 +8,6 @@ header nav a img {
 }
 
 /* Estilos a main */
-main {
-  /* .container-presentacion {
-          display: flex;
-       flex-flow: row wrap;
-       justify-content: center;
-          .presentacion{
-                  margin: 10px;
-
-          }
-      }
-     */
-}
 main h1 {
   color: rgb(131, 58, 25);
   display: grid;
@@ -172,8 +160,53 @@ main .container-valkyria .card-valky__boton {
 main .container-valkyria .card-valky__boton:hover {
   background: #DE8F5F;
 }
-main section .container-contacto {
-  margin: 30px;
+main .section-contacto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+}
+main .section-contacto .contacto-container {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 350px;
+}
+main .section-contacto .contacto-container h2 {
+  color: rgb(255, 207, 157);
+  margin-bottom: 15px;
+}
+main .section-contacto .contacto-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+main .section-contacto .contacto-form label {
+  font-weight: bold;
+  text-align: left;
+}
+main .section-contacto .contacto-form input, main .section-contacto .contacto-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+main .section-contacto .contacto-form button {
+  background: rgb(131, 58, 25);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+main .section-contacto .contacto-form button:hover {
+  background: rgb(213.2797927461, 113.4041450777, 52.7202072539);
 }
 
 /* Estilos a footer */

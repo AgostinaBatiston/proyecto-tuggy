@@ -86,17 +86,7 @@ main {
           }
         }
       }
-    
-    /* .container-presentacion {
-            display: flex;
-	        flex-flow: row wrap;
-	        justify-content: center;
-            .presentacion{
-                    margin: 10px;
-                
-            }
-        }
-       */ 
+  
         
     .container-somos {
         @include cont-somos;
@@ -187,12 +177,58 @@ main {
         }
     }
 
-    section {
-        .container-contacto {
-            margin: 30px;
+    .section-contacto {
+      @include card-section;
+      .contacto-container {
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        width: 350px;
+    
+        h2 {
+            color: $color-principal;
+            margin-bottom: 15px;
         }
     }
-
+    
+    .contacto-form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    
+        label {
+            font-weight: bold;
+            text-align: left;
+        }
+    
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+    
+        button {
+            background: $color-titulo;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s ease-in-out;
+    
+            &:hover {
+                background: darken($color-footer, 10%);
+            }
+        }
+    
+    }
+    }
+      
     
     
 }
