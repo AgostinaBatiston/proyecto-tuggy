@@ -36,18 +36,10 @@ main {
     }
     
     .cards-section {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 20px;
-        padding: 40px;
+        @include card-section;
       
         .card {
-          background: $color-principal;
-          border-radius: 12px;
-          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-          overflow: hidden;
-          width: 300px;
+          @include card ($color-principal, 12px, 0 4px 8px rgba(0, 0, 0, 0.1), hidden, 300px);
           transition: transform 0.3s ease, box-shadow 0.3s ease;
       
           &:hover {
